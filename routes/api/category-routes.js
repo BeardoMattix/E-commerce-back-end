@@ -26,9 +26,8 @@ router.get("/:id", (req, res) => {
     res.status(500).json(err);
   }
 });
-
+// Creates a new category
 router.post("/", (req, res) => {
-  // create a new category
   try {
     const categoryData = await Category.create({
       category_name: req.body.category_name,
@@ -38,9 +37,8 @@ router.post("/", (req, res) => {
     req.status(400).json(err);
   }
 });
-
+// Updates a category based on it's id
 router.put("/:id", (req, res) => {
-  // update a category by its `id` value
   try{
     const updatedCategory = await Category.update(
       {
@@ -61,9 +59,8 @@ router.put("/:id", (req, res) => {
     res.status(500).json(err);
   }
 });
-
+// Deletes a category based on the id value.
 router.delete("/:id", (req, res) => {
-  // delete a category by its `id` value
   try {
     const deletecategory = await Category.destroy({
       where: {
