@@ -1,7 +1,7 @@
 
 
 # <p align="center">Welcome to my E-Commerce Back End Database!</p> 
-## <p align="center">A command line application for managing a store database.</p>
+## <p align="center">A command line application for managing a store database with a RESTful API.</p>
 
 ## Table of Contents
   * [Description](#description)
@@ -32,12 +32,15 @@ The application uses Express, Node.js, MySQL, and Segeulize to enable users to m
 
 ## Demo
 This demo shows the GET routes running in Insomnia:
+https://user-images.githubusercontent.com/82903201/132392707-85dba6fa-e898-491d-a816-bb899fc9a727.mp4
 
 
 This demo shows the GET by Id routes running in Insomnia:
+https://user-images.githubusercontent.com/82903201/132392719-6e2901a7-5dd2-4828-8aef-1ce6c972464f.mp4
 
 
 This demo shows the POST, PUT, and DELETE routes running in Insomnia:
+https://user-images.githubusercontent.com/82903201/132392725-8ecb21b6-43d2-475c-83f6-1fc694d79352.mp4
 
 
 ## Challenges
@@ -60,8 +63,8 @@ This demo shows the POST, PUT, and DELETE routes running in Insomnia:
 * npm run start
 
 ## Future Development
-* Update the application to run using Sequelize instead of hard coding query statements.
-* Use Dotenv npm and set up a connection file to handle access to server. 
+* Make the application more robust and test it in a real-world environment.
+* Update older projects to include an api. 
 
 ## Questions
 * Take a look at my GitHub profile to see other projects: 
